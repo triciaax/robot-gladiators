@@ -7,9 +7,13 @@ var playerMoney = 10;
 // You can also log multiple values at once like this
 console.log(playerName, playerAttack, playerHealth);
 
-var enemyName = "Roborto";
+var enemy1 = "Roborto";
+var enemy2 = "Amy Android";
+var enemy3 = "Robo Trumble";
 var enemyHealth = 50;
 var enemyAttack = 12;
+
+var enemyNames = ["Roborto", "Amy Android", "Robo Trumble"];
 
 // fight function
 var fight = function() {
